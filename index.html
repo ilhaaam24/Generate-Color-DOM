@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Color</title>
+    <style>
+        body{
+            font-family: 'Poppins';
+        }
+     .container{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+      .container h1{
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-align: center;
+      }
+       .container button{
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 0;
+        margin: 0 auto;
+        width: fit-content;
+        box-shadow: 2px 4px 3px rgba(130, 130, 130, 0.737);
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="rgb">rgb(0, 0, 0)</h1>
+      <button id="btn">Generate</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
